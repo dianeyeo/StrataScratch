@@ -1,4 +1,5 @@
 # StrataScratch
- SQL practice on StrataScratch
+	SQL practice on StrataScratch
  
- Attempt on completing 3 questions daily to prep for technical interviews.
+	Attempt on completing 3 questions daily to prep for technical interviews.
+	Moving from Easy -> Medium -> Hard
