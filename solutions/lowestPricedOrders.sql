@@ -4,6 +4,9 @@ https://platform.stratascratch.com/coding/9912-lowest-priced-orders?python=
 
 Difficulty: Medium
 
+-- Find the lowest order cost of each customer.
+-- Output the customer id along with the first name and the lowest order price.
+
 Tables:
 customers
     id                  int
