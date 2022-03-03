@@ -4,6 +4,8 @@ https://platform.stratascratch.com/coding/9893-duplicate-orders?python=
 
 Difficulty: Medium
 
+-- Find customers who appear in the orders table more than three times.
+
 Tables:
 orders
     id                  int
