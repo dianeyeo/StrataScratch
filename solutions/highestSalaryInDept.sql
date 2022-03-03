@@ -4,6 +4,9 @@ https://platform.stratascratch.com/coding/9897-highest-salary-in-department?pyth
 
 Difficulty: Medium
 
+-- Find the employee with the highest salary per department.
+-- Output the department name, employee's first name along with the corresponding salary.
+
 Tables:
 employee
     id                  int
