@@ -4,6 +4,9 @@ https://platform.stratascratch.com/coding/9896-customers-without-orders?python=
 
 Difficulty: Medium
 
+-- Find customers who have never made an order.
+-- Output the first name of the customer.
+
 Tables:
 customers
     id                  int
