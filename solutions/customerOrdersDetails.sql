@@ -4,6 +4,11 @@ https://platform.stratascratch.com/coding/9908-customer-orders-and-details?pytho
 
 Difficulty: Medium
 
+-- Find the number of orders, the number of customers, and the total cost of orders for each city. 
+-- Only include cities that have made at least 5 orders and count all customers in each city even if they did not place an order.
+
+-- Output each calculation along with the corresponding city name.
+
 Tables:
 customers
     id                  int
