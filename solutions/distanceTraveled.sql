@@ -6,6 +6,15 @@ Difficulty: Medium
 
 -- Find the top 10 users that have traveled the greatest distance. 
 -- Output their id, name and a total distance traveled.
+
+Tables:
+lyft_rides_log
+    id          int
+    user_id     int
+    distance    int
+lyft_users
+    id          int
+    name        varchar
 */
 
 SELECT u.id, u.name, SUM(l.distance) AS total_distance
