@@ -1,0 +1,27 @@
+/*
+Highest Total Miles
+https://platform.stratascratch.com/coding/10169-highest-total-miles?python=
+
+Difficulty: Medium
+
+-- You’re given a table of Uber rides that contains the mileage and the purpose for the business expense.  
+-- You’re asked to find business purposes that generate the most miles driven for passengers that use Uber for their business transportation. 
+-- Find the top 3 business purpose categories by total mileage.
+
+Tables:
+my_uber_drives
+    start_date      datetime
+    end_date        datetime
+    category        varchar
+    start           varchar
+    stop            varchar
+    miles           float
+    purpose         varchar
+*/
+
+SELECT purpose, SUM(miles) AS total_miles
+FROM my_uber_drives
+WHERE category = 'Business'
+GROUP BY purpose
+ORDER BY total_miles DESC
+LIMIT 3;
