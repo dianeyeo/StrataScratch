@@ -31,8 +31,8 @@ olympics_athletes_events
 SELECT * ,
     -- if..else statement on whether athlete is European or not dependent on their city
     (CASE
-        -- European cities: Athina, Berlin, Paris, Lillehammer
-        WHEN city IN ('Athina', 'Berlin', 'Paris', 'Lillehammer')
+        -- European cities: Athina, Berlin, Paris, Albertville, Lillehammer
+        WHEN city IN ('Athina', 'Berlin', 'Paris', 'Albertville', 'Lillehammer')
         THEN 'European'
         ELSE 'NonEuropean' END
     -- create a new column to classify if they are European or not
